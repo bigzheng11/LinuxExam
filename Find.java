@@ -15,7 +15,7 @@ import redis.clients.jedis.Jedis;
 import javax.servlet.annotation.WebServlet;
 
 @WebServlet(urlPatterns = "/find")
-public class FindBook extends HttpServlet {
+public class Find extends HttpServlet {
 	static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
     static final String DB_URL = "jdbc:mysql://121.43.43.193/LinuxExam?useUnicode=true"
     		+ "&characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8";
