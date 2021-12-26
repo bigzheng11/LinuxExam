@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 @WebServlet(urlPatterns = "/update")
-public class UpdateBook extends HttpServlet{
+public class update extends HttpServlet{
     static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
     static final String DB_URL = "jdbc:mysql://121.43.43.193/LinuxExam?useUnicode=true"
     		+ "&characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8";
