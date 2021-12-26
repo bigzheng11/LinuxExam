@@ -14,7 +14,7 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
 @WebServlet(urlPatterns = "/delete")
-public class DeleteBook extends HttpServlet{
+public class Delete extends HttpServlet{
 	
     static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
     static final String DB_URL = "jdbc:mysql://121.43.43.193/LinuxExam?useUnicode=true"
